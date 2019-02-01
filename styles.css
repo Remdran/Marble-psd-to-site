@@ -6,3 +6,9 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+.wrapper {
+	width: 98%;
+	padding: 0 2%;
+	max-width: 1600px;
+}
