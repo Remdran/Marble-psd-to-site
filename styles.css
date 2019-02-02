@@ -1,14 +1,62 @@
 * {
 	box-sizing: border-box;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
 }
 
-body {
+body,
+ul,
+li {
 	margin: 0;
 	padding: 0;
 }
 
+p,
+h1,
+h2,
+h3 {
+	color: #4e4e4e;
+}
+
+body {
+	background-color: #f7f7f7;
+}
+
 .wrapper {
-	width: 98%;
+	width: 96%;
 	padding: 0 2%;
-	max-width: 1600px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #e5e5e5;
+	padding: 20px 0;
+}
+
+header h1 {
+	margin: 0;
+	text-indent: -10000px;
+	background: url(images/logo.jpg) no-repeat;
+	width: 134px;
+}
+
+.row {
+	display: flex;
+}
+
+/* margin-left auto sets the nav to the right side of the screen when using flexbox */
+nav {
+	align-self: center;
+	margin-left: auto;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav ul li {
+	margin-left: 20px;
+	list-style-type: none;
 }
