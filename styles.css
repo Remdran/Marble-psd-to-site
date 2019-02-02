@@ -45,7 +45,7 @@ header h1 {
 	display: flex;
 }
 
-/* margin-left auto sets the nav to the right side of the screen when using flexbox */
+/* margin-left:auto sets the nav to the right side of the screen when using flexbox */
 nav {
 	align-self: center;
 	margin-left: auto;
@@ -59,4 +59,24 @@ nav ul {
 nav ul li {
 	margin-left: 20px;
 	list-style-type: none;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #4e4e4e;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.active {
+	color: #1abb9c;
+}
+
+.banner {
+	max-height: 500px;
+	overflow: hidden;
+}
+
+.banner img {
+	width: 100%;
 }
