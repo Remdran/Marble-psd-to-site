@@ -80,3 +80,72 @@ nav li a {
 .banner img {
 	width: 100%;
 }
+
+.info {
+	margin-top: 60px;
+}
+
+.icons {
+	justify-content: space-evenly;
+}
+
+.icons div {
+	width: 23%;
+	text-align: center;
+	padding: 1%;
+	line-height: 1.6em;
+}
+
+.works {
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 2px solid #e4e4e4;
+}
+
+.works h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.work-exs {
+	justify-content: space-around;
+}
+
+.work-exs div {
+	width: 32%;
+}
+
+.work-exs div img {
+	width: 100%;
+}
+
+.work-exs h3 {
+	margin-bottom: 0;
+}
+
+.titles {
+	color: #bbb;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.work-exs p {
+	line-height: 1.6em;
+}
+
+.quote {
+	margin: 60px auto 0;
+	padding: 40px 20%;
+	background: url(images/quote.jpg) no-repeat center 20px;
+	background-color: #efefef;
+	color: #4e4e4e;
+}
+
+.quote blockquote {
+	width: 60%;
+	margin: 30px auto 0;
+	font-size: 20px;
+	line-height: 1.6em;
+	text-align: center;
+}
