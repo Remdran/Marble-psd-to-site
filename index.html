@@ -14,7 +14,7 @@
 					<h1 class="logo">Marble</h1>
 					<nav>
 						<div class="burger"></div>
-						<ul>
+						<ul class="nav-list">
 							<li><a href="#" class="active">Home</a></li>
 							<li><a href="#">About</a></li>
 							<li><a href="#">Journal</a></li>
@@ -28,7 +28,11 @@
 		</header>
 
 		<div class="banner">
-			<img src="images/banner.jpg" alt="banner" />
+			<picture>
+				<source srcset="images/banner_small.jpg" media="(max-width: 480px)" />
+				<source srcset="images/banner_med.jpg" media="(max-width: 768px)" />
+				<img srcset="images/banner.jpg" alt="banner" />
+			</picture>
 		</div>
 
 		<main>
@@ -180,5 +184,7 @@
 				</p>
 			</div>
 		</footer>
+
+		<script src="menu.js"></script>
 	</body>
 </html>

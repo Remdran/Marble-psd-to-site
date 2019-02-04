@@ -226,7 +226,7 @@ footer li {
 	}
 
 	.icons div {
-		width: 40%;
+		flex: 1 0 40%;
 		padding: 0 5%;
 		margin: 20px 0;
 	}
@@ -270,5 +270,75 @@ footer li {
 
 	.works h2 {
 		text-align: center;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.icons div {
+		flex: 1 0 80%;
+		padding: 0 5%;
+		margin: 20px 0;
+	}
+
+	.works div {
+		flex: 1 0 80%;
+		margin: 30px 5%;
+	}
+
+	.quote {
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	.quote blockquote {
+		width: 90%;
+	}
+
+	.ftr-sections {
+		flex: 1 0 100%;
+		margin-top: 10px;
+	}
+
+	header nav ul {
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		height: 0;
+		overflow: hidden;
+	}
+
+	header nav ul li {
+		margin: 0 auto;
+	}
+
+	header nav li a {
+		display: block;
+		text-align: center;
+		padding: 10px;
+		color: #999;
+	}
+
+	header nav {
+		background: #555;
+	}
+
+	header .wrapper {
+		padding: 0;
+		width: 100%;
+	}
+
+	header {
+		padding-bottom: 0;
+	}
+
+	.burger {
+		width: 100%;
+		height: 40px;
+		background: url(images/burger.jpg) no-repeat 98% center;
+		cursor: pointer;
+	}
+
+	header nav ul.open {
+		height: auto;
 	}
 }
