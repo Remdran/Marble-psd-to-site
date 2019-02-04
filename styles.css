@@ -68,6 +68,10 @@ nav li a {
 	font-weight: bold;
 }
 
+nav li a:hover {
+	color: #202020;
+}
+
 .active {
 	color: #1abb9c;
 }
@@ -148,4 +152,68 @@ nav li a {
 	font-size: 20px;
 	line-height: 1.6em;
 	text-align: center;
+}
+
+footer {
+	background: #202020;
+	padding: 30px 0;
+	border-top: 10px solid #151515;
+}
+
+footer h3 {
+	margin: 0;
+	color: #555;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.footer-row {
+	justify-content: space-between;
+}
+
+footer li {
+	list-style-type: none;
+	color: #aaa;
+	width: 80%;
+	margin: 20px 0;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+
+.loc {
+	padding-left: 20px;
+	background: url(images/location.jpg) no-repeat left 6px;
+	margin-bottom: 5px;
+}
+
+.pad {
+	padding-left: 20px;
+	margin-top: 5px;
+}
+
+.phone {
+	padding-left: 20px;
+	background: url(images/phone.jpg) no-repeat left 6px;
+}
+
+.email {
+	padding-left: 20px;
+	background: url(images/email.jpg) no-repeat left 6px;
+}
+
+.twitter {
+	padding-left: 20px;
+	background: url(images/twitter.jpg) no-repeat left 6px;
+}
+
+.ftr-sections {
+	flex: 1 0 25%;
+}
+
+.copyright {
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 2px solid #333;
+	color: #999;
+	font-size: 14px;
 }
